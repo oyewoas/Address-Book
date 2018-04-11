@@ -40,8 +40,8 @@
 
         </nav>
         <div class="marque">
-            <marquee>Now you Can Save, Edit, Delete and View your Contacts</marquee>
-            <marquee direction="up">All in One App <span>AddressBook.io</span></marquee>
+            <marquee direction="left" scrolldelay="10">Now you Can Save, Edit, Delete and View your Contacts</marquee>
+            <marquee direction="up" scrolldelay="50">All in One App <span>AddressBook.io</span></marquee>
         </div>
 
         <!-- Slideshow container
@@ -109,23 +109,26 @@
             </div>
             <input type="hidden" name="id_entry" value="0" />
         </form>
+
         <!-- <div id="viewcontacts">
             
         </div> -->
-        <table id="contacts-table" align="center">
+        <div style="overflow-x:auto;">
+            <table id="contacts-table" align="center">
 
-            <caption>
-                <h1>View Contacts</h1>
-            </caption>
-            <tr id="contacts-head">
-                <th>ID</th>
-                <th>First name</th>
-                <th>Last name</th>
-                <th>Phone No</th>
-                <th>Email</th>
-                <th>Actions</th>
-            </tr>
-        </table>
+                <caption>
+                    <h1>View Contacts</h1>
+                </caption>
+                <tr id="contacts-head">
+                    <th>ID</th>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Phone No</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+        </div>
 
     </div>
     <script src="js/slide.js "></script>

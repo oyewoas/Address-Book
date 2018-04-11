@@ -21,7 +21,7 @@
                                                                                                                                                   #nav li {
                                                                                                                                                       float: left;
                                                                                                                                                       font-size: 1.2em;
-                                                                                                                                                      margin-right: 75px;
+                                                                                                                                                      margin-right: 20px;
                                                                                                                                                   }
                                                                                                                                                   
                                                                                                                                                   #nav li a {
@@ -130,5 +130,5 @@
                                                                                                                                                   }
                                                                                                                                                   
                                                                                                                                                   span {
-                                                                                                                                                      color: blue;
+                                                                                                                                                      color: rgb(68, 68, 247);
                                                                                                                                                   }
